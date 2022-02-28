@@ -252,7 +252,15 @@
 }
 
 
-  @media (max-width: 540px){
+  @media (max-width: 480px){
+      .logoTn{
+          float: right;
+          width: 40%;
+          margin-top: 2%;
+      }
+      .navbar-toggler{
+          margin-top: -18%;
+      }
       .tituloLessons, .tituloStudios{
           font-size: 450%;
           text-align: center;
