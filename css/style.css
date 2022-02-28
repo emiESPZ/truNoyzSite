@@ -319,7 +319,7 @@ html {
     font-size: 120%;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 393px) {
   .tituloLessons, .tituloStudios {
     font-size: 350%;
     text-align: center;
