@@ -200,7 +200,7 @@ html {
 .primeraInfo {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../images/studioBack.jpg);
   /* background-image: url(../images/studioBack.jpg); */
-  height: 100vh;
+  height: calc(100vh + 5rem);
   background-size: cover;
   background-repeat: no-repeat;
   filter: grayscale(100%);
@@ -384,6 +384,16 @@ html {
 
   .customHits {
     font-size: 120%;
+  }
+
+  .title0 {
+    font-size: 4rem;
+  }
+
+  .textWho {
+    margin-top: -45%;
+    margin-left: -2%;
+    margin-right: -10%;
   }
 }
 
