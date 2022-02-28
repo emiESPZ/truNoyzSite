@@ -329,14 +329,43 @@ html {
     font-size: 120%;
   }
 }
-@media (max-width: 393px) {
-  .tituloLessons, .tituloStudios {
-    font-size: 350%;
-    text-align: center;
+@media (max-width: 412px) {
+  .cursosTodosL {
+    margin-top: -2%;
   }
 
   .empty1 {
     display: none;
+  }
+
+  .empty0 {
+    display: none;
+  }
+
+  .cursosTodos a {
+    line-height: 4rem;
+  }
+
+  .tituloStudios {
+    margin-top: 15%;
+  }
+
+  .textWho {
+    font-size: 1rem;
+    line-height: 50px;
+    margin-top: -30%;
+    margin-left: -2%;
+    margin-right: -10%;
+  }
+
+  .title0 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 393px) {
+  .tituloLessons, .tituloStudios {
+    font-size: 350%;
+    text-align: center;
   }
 
   .parrafo1 {
@@ -386,6 +415,9 @@ html {
   .textWho {
     font-size: 1rem;
     line-height: 50px;
+    margin-top: -45%;
+    margin-left: -2%;
+    margin-right: -10%;
   }
 
   .logoCentro {
@@ -398,12 +430,6 @@ html {
 
   .title0 {
     font-size: 4rem;
-  }
-
-  .textWho {
-    margin-top: -45%;
-    margin-left: -2%;
-    margin-right: -10%;
   }
 }
 
