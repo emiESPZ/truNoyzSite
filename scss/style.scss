@@ -335,4 +335,75 @@
         font-size: 120%;
     }
 }   
-  
+@media (max-width: 360px){
+
+    .tituloLessons, .tituloStudios{
+        font-size: 350%;
+        text-align: center;
+        
+    }
+    .empty1{
+       display: none;
+    }
+    .parrafo1{
+      
+        font-size: 90%;
+
+    }
+    .studios a{
+      
+      
+      font-size: 150%;
+      line-height: 4rem;
+     
+
+     }
+     .studios li::before {
+    
+      font-size: 1rem;
+    }
+    .parte1, .parte2{
+        margin-top: 8%;
+        text-align: center;
+        margin-left: -8%;
+    }
+    .parte2{
+      margin-top: -4%
+    }
+
+  .cursosTodos a{
+     
+      font-size: 110%;
+      line-height: 2.5rem;
+      
+   
+  }
+
+  .musicLessonsTitle{
+      margin-top: -25%;
+      color:white;
+      font-size: 200%;
+  }
+
+  .cursosTodosL{
+      text-align: center;
+      margin-top: -5%
+  }
+
+  .cursosTodosR{
+      text-align: center;
+      margin-top: 4%;
+
+}
+.textWho{
+    font-size: 1rem;
+    line-height: 50px;
+}
+.logoCentro{
+    width: 65%;
+}
+  .customHits{
+      font-size: 120%;
+  }
+
+}
